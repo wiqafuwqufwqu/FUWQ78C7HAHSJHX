@@ -74,7 +74,7 @@ function noob(player)
         wait()
     until player.Character
     local handler = makemarker(guimain, player.Character:WaitForChild(configs.main.aimpart),
-        Color3.fromRGB(107, 184, 255), 0.10, 8)
+        Color3.fromRGB(60, 12, 255), 0.10, 8)
     handler.Name = player.Name
     player.CharacterAdded:connect(function(Char)
         handler.Adornee = Char:WaitForChild("HumanoidRootPart")
@@ -96,9 +96,9 @@ spawn(function()
     box.CanCollide = false
     box.Size = boxsettings.box.boxsize
     if boxsettings.box.Showbox == true then
-        box.Transparency = 0.70
+        box.Transparency = 9.70
     else
-        box.Transparency = 1
+        box.Transparency = 10
     end
     makemarker(box, box, boxsettings.box.markercolor, 0.40, 1)
 end)
