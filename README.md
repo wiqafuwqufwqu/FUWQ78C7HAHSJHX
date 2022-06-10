@@ -72,7 +72,7 @@ end)
     --
     if getgenv().valiansh == true then
                         game.StarterGui:SetCore("SendNotification", {
-                   Title = "funxpyware.cc",
+                   Title = "midnight.cc",
                    Text = "Already Loaded!",
                    Duration = 5
         
@@ -97,7 +97,7 @@ end)
         	end	
                if getgenv().NotifMode then
     			game.StarterGui:SetCore("SendNotification", {
-        Title = "funxpyware.cc";
+        Title = "midnight.cc";
         Text = "Target: "..tostring(Plr.Character.Humanoid.DisplayName);
     
     })
@@ -108,7 +108,7 @@ end)
         	end	
         if getgenv().NotifMode then
                         game.StarterGui:SetCore("SendNotification", {
-                   Title = "funxpyware.cc",
+                   Title = "midnight.cc",
                    Text = "Unlocked",
                    Duration = 5
                })
